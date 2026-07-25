@@ -47,9 +47,9 @@ python -m python_cli.main --help
 
 ## Resources
 
-- CONTRIBUTING.md
-- ONBOARDING.md
-- GUIDE_GOOD_FIRST_ISSUES.md
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [ONBOARDING.md](ONBOARDING.md)
+- [GUIDE_GOOD_FIRST_ISSUES.md](GUIDE_GOOD_FIRST_ISSUES.md)
 
 ## Development
 
