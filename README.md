@@ -1,9 +1,9 @@
-# $repo
+# python-cli
 
-[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](https://github.com/yourname/$repo/actions)
+[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](https://github.com/Enzim3-sudo/python-cli/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-Short description of the project.
+A simple Python CLI template for learning open-source contributions.
 
 ## Quick Start
 
