@@ -22,3 +22,11 @@ Resources:
 - CONTRIBUTING.md
 - ONBOARDING.md
 - GUIDE_GOOD_FIRST_ISSUES.md
+
+## Development
+
+Set up virtualenv: python -m venv .venv
+Activate: source .venv/bin/activate
+Install dev deps: pip install -r requirements-dev.txt (or pip install pytest flake8)
+Run tests: pytest
+Run linter: flake8 src
