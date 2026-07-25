@@ -1,3 +1,10 @@
+# $repo
+
+[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](https://github.com/yourname/$repo/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+Short description of the project.
+
 ## Quick Start
 
 ### Clone the repository
@@ -9,7 +16,10 @@ cd python-cli
 
 ### Create a virtual environment
 
-...platform-specific activation...
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
 
 ### Install the project
 
@@ -33,4 +43,32 @@ Hello, John Doe!
 
 ```bash
 python -m python_cli.main --help
+```
+
+## Resources
+
+- CONTRIBUTING.md
+- ONBOARDING.md
+- GUIDE_GOOD_FIRST_ISSUES.md
+
+## Development
+
+Install dev dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+(or `pip install pytest flake8`)
+
+Run tests:
+
+```bash
+pytest
+```
+
+Run linter:
+
+```bash
+flake8 src
 ```
