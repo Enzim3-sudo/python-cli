@@ -1,32 +1,36 @@
-# $repo
+## Quick Start
 
-[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](https://github.com/yourname/$repo/actions)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-
-Short description of the project.
-
-Quick start
+### Clone the repository
 
 ```bash
-# python-cli
-python -m python_cli.main --name you
-
-# js-lib
-node test/test.js
-
-# go-microservice
-go run ./cmd/server
+git clone https://github.com/Enzim3-sudo/python-cli.git
+cd python-cli
 ```
 
-Resources:
-- CONTRIBUTING.md
-- ONBOARDING.md
-- GUIDE_GOOD_FIRST_ISSUES.md
+### Create a virtual environment
 
-## Development
+...platform-specific activation...
 
-Set up virtualenv: python -m venv .venv
-Activate: source .venv/bin/activate
-Install dev deps: pip install -r requirements-dev.txt (or pip install pytest flake8)
-Run tests: pytest
-Run linter: flake8 src
+### Install the project
+
+```bash
+pip install -e .
+```
+
+### Run the application
+
+```bash
+python -m python_cli.main --name "John Doe"
+```
+
+Example output:
+
+```text
+Hello, John Doe!
+```
+
+### Display available options
+
+```bash
+python -m python_cli.main --help
+```
