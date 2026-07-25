@@ -1,0 +1,5 @@
+[project]
+name = "python-cli"
+version = "0.1.0"
+description = "Example Python CLI project"
+dependencies = []
